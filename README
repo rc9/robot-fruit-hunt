@@ -1,12 +1,4 @@
-Welcome!
+This is my implementation of scribd's robot fruit hunt challenge forked from https://github.com/scribd/robot-fruit-hunt
 
-Modify mybot.js to start writing your bot. Opening game.html will allow you to generate random boards, and either watch your bot play or step through one move at a time. Refer to http://www.scribd.com/jobs/botrace_api for available methods. gl/hf!
-
-Scribd.
-
-ps: you should be able to ignore everything in assets/, but if you want to disable the opponent bot from playing in game.html, go to assets/simplebot.js and find:
-    makeMove: function() {
-       // to disable to opponent, uncomment the next line
-       // return PASS;
-
-Uncomment the "return PASS;" and your bot will be free to roam the board alone.
+-round 1: simple BFS to find closest fruit
+       - minor intelligence to not target unecessary fruit
